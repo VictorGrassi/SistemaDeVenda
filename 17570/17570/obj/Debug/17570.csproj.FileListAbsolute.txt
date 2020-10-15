@@ -1,0 +1,81 @@
+C:\Users\Death Knight\Desktop\Project\17570\17570\bin\Debug\17570.exe.config
+C:\Users\Death Knight\Desktop\Project\17570\17570\bin\Debug\17570.exe
+C:\Users\Death Knight\Desktop\Project\17570\17570\bin\Debug\17570.pdb
+C:\Users\Death Knight\Desktop\Project\17570\17570\bin\Debug\Google.Protobuf.dll
+C:\Users\Death Knight\Desktop\Project\17570\17570\bin\Debug\MySql.Data.dll
+C:\Users\Death Knight\Desktop\Project\17570\17570\bin\Debug\Google.Protobuf.xml
+C:\Users\Death Knight\Desktop\Project\17570\17570\bin\Debug\MySql.Data.xml
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\17570.csprojAssemblyReference.cache
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\_17570.FrmCategorias.resources
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\_17570.FrmCidades.resources
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\_17570.FrmClientes.resources
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\_17570.FrmContasReceber.resources
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\_17570.FrmFornecedores.resources
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\_17570.FrmMenu.resources
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\_17570.FrmProdutos.resources
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\_17570.FrmUsuarios.resources
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\_17570.FrmVendas.resources
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\_17570.Properties.Resources.resources
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\17570.csproj.GenerateResource.cache
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\17570.csproj.CoreCompileInputs.cache
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\17570.csproj.CopyComplete
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\17570.exe
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\17570.pdb
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\_17570.FrmConVenda.resources
+C:\Users\Death Knight\Desktop\Project\17570\17570\obj\Debug\_17570.FrmConVendaProduto.resources
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\bin\Debug\17570.exe.config
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\bin\Debug\17570.exe
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\bin\Debug\17570.pdb
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\bin\Debug\Google.Protobuf.dll
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\bin\Debug\MySql.Data.dll
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\bin\Debug\Google.Protobuf.xml
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\bin\Debug\MySql.Data.xml
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\17570.csprojResolveAssemblyReference.cache
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\_17570.FrmCategorias.resources
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\_17570.FrmCentroCusto.resources
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\_17570.FrmCidades.resources
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\_17570.FrmClientes.resources
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\_17570.FrmCompra.resources
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\_17570.FrmContasReceber.resources
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\_17570.FrmConVenda.resources
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\_17570.FrmConVendaProduto.resources
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\_17570.FrmDespesas.resources
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\_17570.FrmFornecedores.resources
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\_17570.FrmMenu.resources
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\_17570.FrmProdutos.resources
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\_17570.FrmUsuarios.resources
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\_17570.FrmVendas.resources
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\_17570.Properties.Resources.resources
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\17570.csproj.GenerateResource.Cache
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\17570.csproj.CoreCompileInputs.cache
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\17570.exe
+D:\B~Terceiro\Project(new)-20181022T224308Z-001\Project(new)\17570\17570\obj\Debug\17570.pdb
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\bin\Debug\17570.exe.config
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\bin\Debug\17570.exe
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\bin\Debug\17570.pdb
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\bin\Debug\Google.Protobuf.dll
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\bin\Debug\MySql.Data.dll
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\bin\Debug\Google.Protobuf.xml
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\bin\Debug\MySql.Data.xml
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\17570.csprojAssemblyReference.cache
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\_17570.FrmCategorias.resources
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\_17570.FrmCentroCusto.resources
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\_17570.FrmCidades.resources
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\_17570.FrmClientes.resources
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\_17570.FrmCompra.resources
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\_17570.FrmContasReceber.resources
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\_17570.FrmConVenda.resources
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\_17570.FrmConVendaProduto.resources
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\_17570.FrmDespesas.resources
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\_17570.FrmFornecedores.resources
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\_17570.FrmMenu.resources
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\_17570.FrmProdutos.resources
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\_17570.FrmUsuarios.resources
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\_17570.FrmVendas.resources
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\_17570.Properties.Resources.resources
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\_17570.Resumocaixa.resources
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\17570.csproj.GenerateResource.cache
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\17570.csproj.CoreCompileInputs.cache
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\17570.csproj.CopyComplete
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\17570.exe
+C:\Users\Victor\Desktop\Dev\Project(new)\17570\17570\obj\Debug\17570.pdb

@@ -1,0 +1,149 @@
+Geral{
+	Inclução de comentarios para facilidade (Apenas comentarios 1 vez por instrução, se houver outra igual, não havera comentario)
+}
+Global{
+	Identação
+	Conectar(){
+		Conexão recebeu charset utf8 para exibir campos com acentuação ou cedilha
+		Conexao = new MySqlConnection("server=localhost;uid=root;pwd=;SslMode=none;charset=utf8");
+
+		Remoção de comentarios
+		Adicionado comentarios estrutivos
+	}
+	Consultar{
+		Todos os consultar contam com erros iguais
+
+		Inner join serve para fazer ligaçao de 2 tabelas, utilizar categorias inner join categorias está errado por ser a mesma tabela
+
+		A nomenclatura dada a tabela normalmente recebera a primeira letra da tabela, sendo assim categoria a deveria ser categoria c
+		Utilizar a.* não é recomendavél, o ideal é colocar todos os campos, assim pode se dar nome, a.data_nasc 'Data de Nascimento'
+
+		Instrução errada
+		Comando = new MySqlCommand("SELECT a.*, c.descricao categoria " +
+		"FROM categorias a " +
+		"left join categorias c on (a.id = c.id) " +
+		"where a.descricao like ?descricao " +
+		"order by a.descricao", Conexao);
+
+		Forma correta da mesma instrução
+		Comando = new MySqlCommand("SELECT ID, Descricao 'Descrição' " +
+		"FROM categorias " +
+		"where descricao like ?descricao " +
+		"order by descricao", Conexao);
+
+		Sempre utilizamos ID na instrução e então no projeto, ocultamos sempre a primeira coluna do datagrid 
+		DataGridView.Columns[0].Visible = false;
+
+		Utilizamos nomes para os campos, no caso de espaço ou acentuação (que sera exibida graças ao charset=utf8), colocamos apostrofos
+		Select ID, Descricao 'Descrição'
+	}
+	Inner join{
+		Algumas tabelas, como a de fornecedores, encontrasse com o mesmo errado a cima, de inner join com a mesma tabela, mas nessa outro erro é a falta de inner join para ligar com a tabela de cidades
+
+		Instrução errada
+		 Comando = new MySqlCommand("SELECT a.*, c.razao_social, c.endereco, c.fantasia, c.bairro, c.id_cidade, c.cnpj, c.ie, c.fone, c.contato, c.email 
+		 "FROM fornecedores a " +
+		 "left join fornecedores c on (a.id = c.id) " +
+		 "where a.razao_social like ?razao_social " +
+		 "order by a.razao_social", Conexao);
+
+		 Instrução correta
+		 Comando = new MySqlCommand("SELECT f.ID, f.Razao_social 'Razão Social', f.Endereco 'Endereço', f.Fantasia, f.Bairro, 
+		 f.ID_cidade, c.Nome Cidade, c.UF, f.CNPJ, f.IE, f.Fone 'Telefone', f.Contato, f.Email 
+		 "FROM fornecedores f " +
+		 "left join cidades c on (f.id_cidade = c.id) " +
+		 "where f.razao_social like ?razao_social " +
+		 "order by f.razao_social", Conexao);
+
+		 E no projeto devemos ocultar o f.ID, e f.id_cidade, pois oque sera exibido sera o nome e uf da tabela de cidades
+		 DataGridView.Columns[0].Visible = false;
+		 DataGridView.Columns[5].Visible = false;
+	}
+}
+Menu{
+	Identação
+	Exclução de espaçamentos
+}
+Todos os forms{
+	Designe{
+		Alteração geral
+		Tamanho da font
+		Novos icones
+		Alteração de propriedades dos compenentes (Cursor, maxlenght, controlbox, formbordstyle, startpositon, windowstate){
+			Form{
+				ControlBox = false (Retira a exibição dos botões do topo do form (Minimizar, maximizar e fechar)) / Padrão é true
+				FormBordStyle = FixedSingle (Altera a bordar do form, e tambem impede que o usuario possa expandir o form) / Padrão é Sizable
+				StarPosition = CenterScreen (Altera o local que o formulario abrira, no caso, no centro da tela) / Padrão é WindowsDefaultLocation
+				MaximizeBox = false (para impedir a expanção do form para modo fullscreen, normalmente com 2 clics) / Padrão é true
+			}
+			Cursor{
+				Form, TextBox (Enable false), PictureBox (de exibição) e GroupBox: Cursor Default
+				Label, TextBox e MaskextBox: Cursor Ibeam
+				Buttons, DataGrid, CheckBox, RadioButton, ComboBox, NumericUpDown e PictureBox (de seleção): Cursor Hand
+			}
+			TextBox MaxLenght = Limite do campo no banco (limita o numero de caracteres aceitos no campo, para não exceder a quantidade do campo na tabela do banco) / Padrão 32767
+			ComboBox DropDownStyle = DropDownList (deixa o combobox apenas para seleção, impedindo digitação dentro do mesmo, para impedir inserção de dados indeviduos) / Padrão é DropDown
+			PictureBox{
+				BorderStyle = 3D (Altera a borda do PictureBox) / Padrão é none
+				SizeMode = StreechImage (Ajusta a imagem escolhida dentro do PictureBox) / Padrão é normal
+			}
+		}
+	}
+	Programação{
+
+		Adicionado programação para bloquiar reordenação do DataGridView
+		 int Sort = 0; while (Sort < dgvDataGrid.ColumnCount)
+         { dgvDataGrid.Columns[Sort].SortMode = DataGridViewColumnSortMode.NotSortable; Sort++; }
+
+		Organização e Identação
+		Remoção de linhas não uteis, espaços e eventos
+
+		Função limpar(){
+			Adicionado linha para limpeza de seleção 
+			DataGridView.ClearSelection();
+		}
+
+		Criação da variavel Empty, usada no teste de campo, para retornar
+		Adicionado função NotEmpty, teste para verificar se o campo está nulo ou tem apenas espaço
+		if (String.IsNullOrWhiteSpace(txtDescricao.Text) Empty = true;
+
+		Adicionado linha para teste de campos, recorente a nova função NotEmpty
+		if (Empty == true) { MessageBox.Show("Os campos não podem estar vazios", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information); return; }
+
+		Melhoria no teste de exclução
+		if (String.IsNullOrWhiteSpace(txtID.Text)) { MessageBox.Show("Selecione um registro para excluir", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information); return; }
+
+		Adicionado MessageBoxDefaultButton em varios MessageBox (Com intuito de deixa o foco no botão não)
+		MessageBox.Show("Deseja realmente excluir a Categoria? " + txtDescricao.Text, "Exclusão", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+
+		Teste para PictureBox não esceder o banco de dados
+		if (ofdArquivo.FileName.Length <= 100)
+                picImagem.ImageLocation = ofdArquivo.FileName;
+            else
+                MessageBox.Show("Imagem contem nome ou conjunto de diretorios muito grande", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+        Organização do PrintDocumente
+	}
+}
+
+!IMPORTANTE!
+Ao utilizar uma tabela para exibição em ComboBox, deve se usar o nome apelido (caso tenha sido definido algum)
+Ex.
+Criação da tabela{
+	Create table if not exists cidades(id integer auto_increment primary key, nome char(40), uf char(2))
+}
+Criação da função de exibição (ConsultarCidades){
+	Comando = new MySqlCommand("select ID, Nome Cidade, UF FROM cidades where nome like ?nome order by nome", Conexao);
+}
+Tabela atribuida ao comboBox atribuido{
+	cboCidades.DataSource = Global.ConsultarCidades("");
+    cboCidades.DisplayMember = "Cidade"; !Ao invez de usar "Nome" (Nome dado ao campo), usa-se "Cidade" (Apelido dado ao campo)!
+    cboCidades.ValueMember = "ID";
+}
+DataGridView{
+	AutoSizeColumnsMode = AllCells (Faz todas as colunas ficarem no tamanho do conteudo) // Padrão é none
+	AutoSizeRowsMode = AllCells (Faz todas as linhas ficarem no tamanho do conteudo) // Padrão é none
+	RowHeadersWidht = 20 (Tamanho da primeira coluna (que sempre esta vazia)) // Padrão é 41
+	RowHeadersWidhtSizeMode = DisableResizing (Bloqueia o aumento da primneira coluna do datagrid (que sempre esta vazia)) // Padrão é EnableResizing
+	SelectionMode = FullRowSelect (Seleciona a linha toda, independente de qual coluna foi clicada) // Padrão é RowHeaderSelect
+}
